@@ -13,11 +13,11 @@ const Brands = () => {
                     <div className="w-100 mt-5">
                         <span className="text-color fs-3">Brands</span>
                         <h1 className="fs-1 web-text mt-3 fw-normal">Work with brands worldwide</h1>
-                        <div className="d-flex align-items-center gap-5">
-                            <img className="mt-3 w-25 img-fluid" src={img1} alt="Google" />
-                            <img className="mt-3 w-25 img-fluid" src={img2} alt="Amazon" />
-                            <img className="mt-3 w-25 img-fluid" src={img3} alt="Nike" />
-                            <img className="mt-3 w-25 img-fluid" src={img4} alt="T-Mobile" />
+                        <div className="d-flex align-items-center gap-3">
+                            <img className="mt-3 w-20 img-fluid" src={img1} alt="Google" />
+                            <img className="mt-3 w-20 img-fluid" src={img2} alt="Amazon" />
+                            <img className="mt-3 w-20 img-fluid" src={img3} alt="Nike" />
+                            <img className="mt-3 w-20 img-fluid" src={img4} alt="T-Mobile" />
                         </div>
                     </div>
                 </div>
