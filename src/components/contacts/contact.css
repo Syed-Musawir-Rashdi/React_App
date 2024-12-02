@@ -1,0 +1,31 @@
+.my-color{
+    color: var(--text-secondary1) !important;
+}
+
+.web-text{
+    color: var(--text-primary) !important;
+}
+
+.mt-100{
+    margin-top: 100px !important;
+}
+.pointer:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.border-bg{
+    border:1px solid var(--border-color) !important;
+}
+
+.border-bg:hover{
+    cursor: pointer;
+    color: var(--text-color) !important;
+    transition: 1s linear;
+    border: 1px solid var(--text-color) !important;
+}
+
+.text-color{
+    color: var(--text-color) !important;
+
+}

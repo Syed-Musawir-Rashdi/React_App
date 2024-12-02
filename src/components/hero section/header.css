@@ -1,0 +1,27 @@
+:root{
+    --border-color:rgba(153, 153, 153, 1);
+    --text-color: #2eebaa;
+    --text-primary:rgba(255, 255, 255, 1);
+    --font-family: "Inter", sans-serif;
+    --text-secondary1: rgba(153, 153, 153, 1);
+}
+
+.border-bg:hover{
+    cursor: pointer;
+    color: var(--text-color) !important;
+    transition: 1s linear;
+    border: 1px solid var(--text-color) !important;
+}
+
+.my-color{
+    color: var(--text-secondary1) !important;
+}
+
+.web-text{
+    color: var(--text-primary) !important;
+}
+
+.text-color{
+    color: var(--text-color) !important;
+
+}

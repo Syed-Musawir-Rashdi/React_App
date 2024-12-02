@@ -1,0 +1,41 @@
+:root{
+    --border-color:rgba(153, 153, 153, 1);
+    --text-color: #2eebaa;
+    --text-primary:rgba(255, 255, 255, 1);
+    --font-family: "Inter", sans-serif;
+    --text-secondary1: rgba(153, 153, 153, 1);
+}
+
+.border-bg:hover{
+    cursor: pointer;
+    color: var(--text-color) !important;
+    transition: 1s linear;
+    border: 1px solid var(--text-color) !important;
+}
+
+.my-color{
+    color: var(--text-secondary1) !important;
+}
+
+.web-text{
+    color: var(--text-primary) !important;
+}
+
+.text-color{
+    color: var(--text-color) !important;
+
+}
+
+.Image{
+    width: 100px !important;
+    height: 80px !important;
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important;
+}
+
+.Image:hover{
+    -webkit-filter: grayscale(0%) !important;
+    filter: grayscale(0%) !important;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
