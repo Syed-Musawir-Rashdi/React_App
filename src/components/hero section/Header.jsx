@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <>
       <div className="container">
-        <div className="row mt-5">
+        <div className="row ">
           <div className="col-12 col-sm-12 col-md-4 col-lg-4 text-center mt-5 d-flex align-item-center gap-3 flex-column">
             <img className="img-fluid rounded-3 w-75" src={mainImage}></img>
-            <button className="btn bg-black border border-bg px-5 text-light fs-5 w-50 ms-5">
+            <button className="btn bg-black border border-bg text-light fs-5 w-50 ms-5">
               Hire me
             </button>
           </div>
